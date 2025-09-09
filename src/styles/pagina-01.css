@@ -18,21 +18,35 @@
 
 
 }
-.conteiner-header-menu a{
-    color: rgb(252, 252, 252);
-    text-decoration: none;
-    height: 50px;
-    width: 110px;
-    display: inline-block;
+/* Corrige a lista */
+.conteiner-header-menu ul {
+    list-style: none; /* tira as bolinhas */
+    margin: 0;
+    padding: 0;
     text-align: center;
-    
-    
 }
 
-.container-header-menu a span{
+/* Itens do menu */
+.conteiner-header-menu li {
     display: inline-block;
-    margin: 16px auto;
+    margin: 0 10px;
+}
 
+/* Links do menu */
+.conteiner-header-menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    border-radius: 8px; /* borda arredondada bonitinha */
+    transition: all 0.3s ease; /* efeito suave */
+}
+
+/* Hover nos links */
+.conteiner-header-menu li a:hover {
+    background-color: #c449a7;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0,123,255,0.4);
 }
 
 .conteiner-main{
@@ -67,3 +81,9 @@
       align-items: center;      /* centraliza na horizontal */
       justify-content: center;
 }
+
+.header-menu li:hover{
+    /*ele faz os itens ficarem coloridos passando mouse*/
+    background-color:#c476dc;
+    color:#c36cd1;
+    box-shadow: 0px 4px 8px rgba(0,123,255,0.4);}
