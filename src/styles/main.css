@@ -27,3 +27,12 @@
 .content-Agendamentos {
     background-color: rgb(233, 161, 176);
 }
+
+ .textos{
+    width: 800px;           /* largura do quadrado */
+    height:500px;
+  border: 2px solid #B73269;  /* borda rosa (ou outra cor) */
+  border-radius: 10px;    /* cantos arredondados */
+  background-color: #88225a; /* cor de fundo do quadrado */
+  justify-content: ;
+}
