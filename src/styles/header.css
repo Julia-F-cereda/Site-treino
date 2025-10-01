@@ -1,35 +1,6 @@
 
 @import url("./reset.css");
 
-/* Seções principais */
-.content-Tratamentos-Faciais,
-.content-Sobre-nós,
-.content-Tratamentos,
-.content-Agendamentos {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: aliceblue;
-    box-sizing: border-box;
-}
-
-/* Cores de fundo das seções */
-.content-Tratamentos-Faciais {
-    background-color: rgb(251, 239, 242);
-    margin-top: 10vh; /* evita ficar atrás do header fixo */
-}
-.content-Sobre-nós {
-    background-color: rgb(246, 206, 216);
-}
-.content-Tratamentos {
-    background-color: rgb(242, 182, 193);
-}
-.content-Agendamentos {
-    background-color: rgb(233, 161, 176);
-}
 
 /* Header fixo */
 .container-header {
@@ -65,10 +36,13 @@
     transition: 0.3s;
 }
 .container-header-menu li a{
-  color: black;
+  color: rgb(227, 114, 159);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font:bold;
   
 }
 
 .container-header-menu li:hover {
-    background-color: rgb(237, 97, 228);
+    background-color: rgb(197, 60, 145);
     }

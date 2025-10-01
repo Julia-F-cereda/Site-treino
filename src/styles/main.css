@@ -1,0 +1,29 @@
+/* Seções principais */
+.content-Tratamentos-Faciais,
+.content-Sobre-nós,
+.content-Tratamentos,
+.content-Agendamentos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+/* Cores de fundo das seções */
+.content-Tratamentos-Faciais {
+    background-color: rgb(233, 161, 176);
+    margin-top: 10vh; /* evita ficar atrás do header fixo */
+}
+.content-Sobre-nós {
+    background-color: rgb(233, 161, 176);
+}
+.content-Tratamentos {
+    background-color: rgb(233, 161, 176);
+}
+.content-Agendamentos {
+    background-color: rgb(233, 161, 176);
+}

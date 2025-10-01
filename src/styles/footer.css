@@ -10,3 +10,36 @@
 
     
 }
+
+.logo-racco{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.container-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  background-color: rgb(183, 50, 105);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.101);
+  color: rgb(227, 114, 159);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* joga um pro lado e outro pro outro */
+  padding: 0 20px;
+}
+
+.icons-contato{
+  display: flex;
+  gap: 30px; /* espaço entre os ícones */
+}
+
+.icons-contato img {
+  width: 45px; /* tamanho dos ícones */
+  height: 45px;
+  cursor: pointer;
+}
