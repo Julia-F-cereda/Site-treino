@@ -34,5 +34,20 @@
   border: 2px solid #B73269;  /* borda rosa (ou outra cor) */
   border-radius: 10px;    /* cantos arredondados */
   background-color: #88225a; /* cor de fundo do quadrado */
-  justify-content: ;
+  
 }
+
+.fundo{
+    margin: 0;
+      padding: 0;
+      background-image: url(/src/img/icons/rosa_variospng.PNG);
+      background-size: cover;   /* Faz a imagem cobrir toda a tela */
+      background-repeat: no-repeat; /* Evita repetição da imagem */
+      background-position: center;  /* Centraliza a imagem */
+}
+
+
+
+
+
+

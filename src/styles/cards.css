@@ -1,0 +1,70 @@
+.speaker-card {
+  max-width: 250px;
+  border: 2px solid #d8198f;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: ease-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* mantém texto e botão juntos */
+  height: 400px;               /* altura fixa */
+  
+}
+.cards-container {
+  display: flex;           /* coloca os cards lado a lado */
+  flex-wrap: wrap;         /* permite quebrar linha em telas pequenas */
+  justify-content: center; /* centraliza os cards horizontalmente */
+  gap: 20px;               /* espaço entre os cards */
+}
+
+.speaker-card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.speaker-card img {
+  width: 100%;
+  display: block;
+}
+
+.speaker-card figcaption {
+padding: 15px;
+  flex: 1;                      /* ocupa o restante do espaço do card */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* mantém o botão logo abaixo do texto */
+}    /* corta o excesso de texto que passar */
+
+.speaker-card h1 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #e56ab6;
+}
+
+.speaker-card p {
+  margin: 3px 0;
+  font-size: 15px;
+  color: #000000;
+}
+
+.meu-botao {
+ display: inline-block;          /* faz agir como botão */
+  background-color: #e75480;     /* fundo rosa */
+  color: #fff;                   /* texto branco */
+  text-decoration: none;          /* tira sublinhado */
+  padding: 12px 24px;
+  border-radius: 12px;           /* cantos arredondados */
+  border: 2px solid #c7436d;     /* borda */
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.meu-botao:hover {
+  background-color: white;     /* fundo branco ao passar o mouse */
+  color: #e75480;              /* texto rosa */
+  border-color: #e75480;       /* borda rosa */
+}
